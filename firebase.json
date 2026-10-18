@@ -1,22 +1,8 @@
 {
-  "hosting": [
-    {
-      "site": "central-warehouse-sja2",
-      "public": "central-warehouse-sja2",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [{ "source": "**", "destination": "/index.html" }]
-    },
-    {
-      "site": "fuel-sja2",
-      "public": "fuel-sja2",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [{ "source": "**", "destination": "/index.html" }]
-    },
-    {
-      "site": "stockopname-sja2",
-      "public": "stockopname-sja2",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [{ "source": "**", "destination": "/index.html" }]
-    }
-  ]
+  "hosting": {
+    "site": "central-warehouse-sja2",
+    "public": ".",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [{ "source": "**", "destination": "/index.html" }]
+  }
 }
